@@ -1,0 +1,13 @@
+name: TModsServerAddons_InfiniteFlight
+main: me.tmods.serveraddons.InfFlight
+version: 1.11
+author: Timo Hocker
+website: http://timosmods.weebly.com
+
+depends:
+ - TModsServerUtils
+
+commands:
+  InfFlight:
+    description: toogle infinteflight mode
+    usage: /infflight
