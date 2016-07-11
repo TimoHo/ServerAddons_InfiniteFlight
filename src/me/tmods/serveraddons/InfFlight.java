@@ -81,7 +81,7 @@ public class InfFlight extends JavaPlugin{
 						p.getInventory().setChestplate(new ItemStack(Material.ELYTRA));
 					}
 				} else {
-					sender.sendMessage(Methods.getLang("notonline"));
+					sender.sendMessage("this player is not online");
 				}
 			} else {
 				if (!sender.hasPermission("ServerAddons.infflight.toggle")) {
